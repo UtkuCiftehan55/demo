@@ -31,3 +31,25 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignore the .env file (contains sensitive credentials)
+.env
+
+# Ignore database files (e.g., SQLite database)
+*.db
+
+# Ignore operating system-specific files
+.DS_Store          # MacOS
+Thumbs.db          # Windows
+
+# Ignore IDE-specific files
+.idea/             # IntelliJ IDEA
+*.iml              # IntelliJ IDEA
+.vscode/           # VS Code settings
+
+# Ignore build files
+/target/           # Maven build folder
+/build/            # Gradle build folder
+
+# Ignore logs
+*.log
